@@ -1,0 +1,78 @@
+#homeback{
+    /* position: static; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px 150px;
+    /* justify-content: center; */
+    align-items: center;
+    height: 500px;
+}
+#homeback::before{
+    content: "";
+    position: absolute;
+    top: 109px;
+    /* left: 0px; */
+    justify-content: center;
+    align-items: center;
+    /* right:0px; */
+    background: url('pg.jpg') no-repeat center center/cover;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.main {
+    z-index: 1;
+    width: 50%;
+    /* margin: 50px auto; */
+    opacity: 1;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.headin{
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.majorcity{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+   /* width: 100px; */
+   height: 300px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   padding: 10px 20px;
+    
+}
+.city img{
+    width: 250px;
+    background-color: rgb(253, 249, 249);
+    border: solid rgb(230, 229, 229) 2px;
+    border-radius: 50%;
+    box-shadow:3px 4px 4px rgb(122, 121, 121) ;
+    position: relative;
+    /* top: -40px; */
+}
+.majcity{
+    padding: 20px;
+}
+.some h3{
+    display: flex;
+  justify-content: center;
+}
